@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { FiHome, FiShuffle, FiDollarSign, FiMapPin, FiCheckSquare, FiMenu, FiX } from 'react-icons/fi';
+import { FiHome, FiShuffle, FiDollarSign, FiMapPin, FiCheckSquare, FiMenu, FiX, FiStar } from 'react-icons/fi';
 import logo from '../assets/kahitanologo.png';
 
 const navLinks = [
   { path: '/dashboard', label: 'Home', icon: FiHome },
   { path: '/random-picker', label: 'Spin', icon: FiShuffle },
+  { path: '/custom-wheel', label: 'Custom', icon: FiStar },
   { path: '/budget-meal', label: 'Budget', icon: FiDollarSign },
   { path: '/restaurants', label: 'Near Me', icon: FiMapPin },
   { path: '/group-voting', label: 'Vote', icon: FiCheckSquare },

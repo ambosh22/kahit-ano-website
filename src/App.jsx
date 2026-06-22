@@ -12,6 +12,7 @@ import GroupVoting from './pages/GroupVoting';
 import MapView from './pages/MapView';
 import MoodSuggest from './pages/MoodSuggest';
 import Admin from './pages/Admin';
+import CustomWheel from './pages/CustomWheel';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/random-picker" element={<RandomFood />} />
+        <Route path="/custom-wheel" element={<CustomWheel />} />
         <Route path="/budget-meal" element={<BudgetMeal />} />
         <Route path="/cook-at-home" element={<CookAtHome />} />
         <Route path="/buy-outside" element={<BuyOutside />} />

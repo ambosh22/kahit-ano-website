@@ -296,6 +296,12 @@ button[aria-label="Toggle menu"] { display: none; }
   .hero-title { font-size: 36px; }
   .hero-desc { font-size: 16px; }
   .mood-grid { grid-template-columns: repeat(2, 1fr); }
+  .wheel-slots-grid { grid-template-columns: repeat(3, 1fr) !important; }
+  .custom-wheel-layout { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 480px) {
+  .wheel-slots-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 @media (max-width: 480px) {
   .hero-title { font-size: 28px; }
